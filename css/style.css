@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,400;1,600&family=Roboto&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,900;1,400;1,700;1,900&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+@import url("components/id.css");
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+h1,h2,h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	line-height: 10px;
+	font-size: 28px;
+
+}
+
+h2 {
+	font-size: 23px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 20px;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* custom design with list-inline*/
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 40px;
+	color: #b4d7fac2;
+}
+
+.list-inline i:hover {
+	color: #1e62b4;
+}
+
+#introduction {
+	margin-bottom: 40px;
+}
+
+/* custom design with typeform*/
+
+.typeform-widget {
+	margin: 40px auto;
+}

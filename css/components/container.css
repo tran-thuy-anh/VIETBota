@@ -1,0 +1,36 @@
+.container {
+    width: 900px;
+    text-align: justify;
+    margin: 80px auto;
+}
+
+.banner-container {
+    text-align: center;
+    margin: 80px auto;
+
+}
+/* Media setting*/
+
+@media (max-width: 960px) {
+  .container {
+    width: 720px;
+  }
+}
+@media (max-width: 750px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 200px;
+  }
+}
+
+
